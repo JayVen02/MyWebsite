@@ -1,0 +1,42 @@
+.Header{
+    text-align: center;
+    background-color: bisque;
+}
+
+/* Profile Image */
+img{
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 2px;
+    width: 150px;
+    height: 160px;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(24, 5, 237, 0.5);
+  }
+
+  /* Body */
+body{
+    background-color: rgb(236, 192, 135);
+}
+
+/* The link */
+.link{
+    background-color: rgb(104, 104, 104);
+}
+
+a{
+    color: rgb(9, 194, 240);
+}
+a:hover{
+    color: rgb(5, 92, 255);
+}
+
+a:active{
+    color: rgb(99, 99, 234);
+}
+
+.About{
+    background-color: blanchedalmond;
+}
