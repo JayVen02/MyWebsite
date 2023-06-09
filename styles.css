@@ -3,18 +3,53 @@
     background-color: bisque;
 }
 
+nav{
+    position: relative;
+    font-size: 17px;
+    background-color: #0f1011;
+    width: 100%;
+    font-family: 'Source Sans Pro Topnav', sans-serif;
+}
+
+.pages{
+    color:antiquewhite
+}
+
+.pages:hover{
+color: rgb(206, 127, 63);
+}
+
+
 /* Profile Image */
 img{
     border: 1px solid #ddd;
     border-radius: 2px;
     padding: 2px;
-    width: 150px;
-    height: 160px;
 }
 
 img:hover {
     box-shadow: 0 0 2px 1px rgba(24, 5, 237, 0.5);
   }
+
+
+
+.about{
+ background-color: burlywood;
+ text-align: center;
+}
+/* resume part */
+.resume{
+    color: rgba(6, 109, 245, 0.5);
+}
+
+.text{
+    color: black;
+}
+
+/* .contact{
+  text-align: right;
+  width: 51%;
+} */
 
   /* Body */
 body{
@@ -22,8 +57,9 @@ body{
 }
 
 /* The link */
-.link{
-    background-color: rgb(104, 104, 104);
+.contact{
+    text-align: center;
+    background-color: rgb(255, 229, 208);
 }
 
 a{
@@ -37,6 +73,8 @@ a:active{
     color: rgb(99, 99, 234);
 }
 
-.About{
-    background-color: blanchedalmond;
+.foot{
+    color: #dddddd;
+    background-color: #0f1011;
 }
+
