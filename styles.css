@@ -21,35 +21,57 @@ color: rgb(206, 127, 63);
 
 
 /* Profile Image */
-img{
+.profile{
     border: 1px solid #ddd;
     border-radius: 2px;
     padding: 2px;
 }
 
-img:hover {
+.profile:hover {
     box-shadow: 0 0 2px 1px rgba(24, 5, 237, 0.5);
   }
 
 
 
 .about{
- background-color: burlywood;
- text-align: center;
+    text-align: center;
+    background-color: burlywood;
+
 }
+
+.aboutInfo{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.text{
+    flex-direction: column;
+}
+
+li{
+    /* text-align: ; */
+}
+
 /* resume part */
 .resume{
     color: rgba(6, 109, 245, 0.5);
 }
 
+.info{
+    text-align: left;
+    width: 75%;
+} 
+
+.details{
+    text-align: right;
+    width:25%;
+}
+
 .text{
     color: black;
 }
-
-/* .contact{
-  text-align: right;
-  width: 51%;
-} */
 
   /* Body */
 body{
