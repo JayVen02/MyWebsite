@@ -1,6 +1,7 @@
 .Header{
     text-align: center;
-    background-color: bisque;
+    /* opacity: 0.8; */
+    background-color: rgb(245, 212, 185);
 }
 
 /* navigation bar */
@@ -77,10 +78,7 @@ li{
 
 .btn{
     background: #963f01;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem;
     color: #fff;
     border-radius: 40px;
     box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
