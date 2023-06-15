@@ -53,19 +53,10 @@ color: rgb(206, 127, 63);
     flex-direction: column;
 }
 
-li{
-    /* text-align: ; */
-}
-
 /* resume part */
 .resume{
     color: rgba(6, 109, 245, 0.5);
 }
-
-.info{
-    text-align: left;
-    width: 75%;
-} 
 
 .details{
     text-align: right;
@@ -118,4 +109,3 @@ a:active{
     color: #dddddd;
     background-color: #0f1011;
 }
-
