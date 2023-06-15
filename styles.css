@@ -1,11 +1,12 @@
 .Header{
+    margin: 0;
     text-align: center;
-    /* opacity: 0.8; */
     background-color: rgb(245, 212, 185);
 }
 
 /* navigation bar */
 nav{
+    margin: 0;
     position: relative;
     font-size: 17px;
     background-color: #0f1011;
@@ -37,6 +38,7 @@ color: rgb(206, 127, 63);
 
 
 .about{
+    margin-bottom: 5%;
     text-align: center;
     background-color: burlywood;
 
@@ -108,4 +110,5 @@ a:active{
 .foot{
     color: #dddddd;
     background-color: #0f1011;
+    margin: auto;
 }
