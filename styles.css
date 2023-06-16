@@ -26,22 +26,21 @@ color: rgb(206, 127, 63);
 
 /* Profile Image */
 .profile{
-    border: 1px solid #ddd;
+    border: 2px solid #ddd;
     border-radius: 2px;
     padding: 2px;
+    /* display: flex; */
+    /* text-align: right; */
 }
 
 .profile:hover {
     box-shadow: 0 0 2px 1px rgba(24, 5, 237, 0.5);
   }
 
-
-
 .about{
     margin-bottom: 5%;
     text-align: center;
     background-color: burlywood;
-
 }
 
 .aboutInfo{
