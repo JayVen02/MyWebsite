@@ -1,6 +1,6 @@
 .name{
-    /* padding-top: 5%; */
-    margin:4%;
+    margin-top: 3.5%;
+    margin-bottom: 0;
     text-align: center;
     background-color: rgb(245, 212, 185);
 }
@@ -20,19 +20,13 @@ header {
 
 nav{
     margin: 0;
-    position: relative;
+    padding: 0;
     font-size: 17px;
-    /* background-color: #0f1011; */
-    width: 100%;
-    font-family: 'Source Sans Pro Topnav', sans-serif;
-}
-
-nav {
     width: 50%;
     max-width: 300px;
     height: 50px;
-  }
-  
+    font-family: 'Source Sans Pro Topnav', sans-serif;
+}
   nav > ul {
     display: flex;
     justify-content: space-evenly;
@@ -70,8 +64,6 @@ color: rgb(206, 127, 63);
     border: 2px solid #ddd;
     border-radius: 2px;
     padding: 2px;
-    /* display: flex; */
-    /* text-align: right; */
 }
 
 .profile:hover {
@@ -79,6 +71,8 @@ color: rgb(206, 127, 63);
   }
 
 .about{
+    padding-top: 0;
+    margin-top:0;
     margin-bottom: 5%;
     text-align: center;
     background-color: burlywood;
@@ -93,6 +87,7 @@ color: rgb(206, 127, 63);
 
 .text{
     flex-direction: column;
+    /* justify-content: space-evenly; */
 }
 
 /* resume part */
@@ -106,6 +101,7 @@ color: rgb(206, 127, 63);
 }
 
 .text{
+
     color: black;
 }
 
