@@ -61,8 +61,9 @@ color: rgb(206, 127, 63);
 
 /* Profile Image */
 .profile{
+    
     border: 2px solid #ddd;
-    border-radius: 2px;
+    border-radius: 55%;
     padding: 2px;
 }
 
@@ -85,6 +86,15 @@ color: rgb(206, 127, 63);
     width: 100%;
 }
 
+.aboutInfo > li{
+   list-style-type: none; 
+   padding: 0; 
+   margin: 0; 
+}
+
+fieldset{
+ border-color: #080808;
+}
 .text{
     flex-direction: column;
     /* justify-content: space-evenly; */
