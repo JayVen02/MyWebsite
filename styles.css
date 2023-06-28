@@ -11,7 +11,7 @@ header {
     margin: 0;
     width: 100%;
     height: 50px;
-    background-color: #1b1b32;
+    background-color: #050301;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,8 +47,8 @@ nav{
   }
   
   nav > ul > li:hover {
-    background-color: #dfdfe2;
-    color: #1b1b32;
+    background-color: #f1b566;
+    color: #000011;
     cursor: pointer;
   }
   
@@ -57,18 +57,8 @@ nav{
     text-decoration: none;
   }
 
-.pages{
-    color:antiquewhite
-}
-
-.pages:hover{
-color: rgb(206, 127, 63);
-}
-
-
 /* Profile Image */
 .profile{
-    
     border: 2px solid #ddd;
     border-radius: 55%;
     padding: 2px;
@@ -152,15 +142,16 @@ body{
     width: auto;
 }
 
-a{
-    color: rgb(9, 194, 240);
+fieldset > a{
+    color: rgb(15, 146, 179);
 }
-a:hover{
-    color: rgb(5, 92, 255);
+fieldset > a:hover{
+  color: #000011;
+    background-color: rgb(161, 154, 255);
 }
 
-a:active{
-    color: rgb(99, 99, 234);
+fieldset > a:active{
+    color: rgb(145, 145, 240);
 }
 
 .foot{
