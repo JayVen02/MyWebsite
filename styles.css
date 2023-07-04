@@ -4,7 +4,6 @@
   padding: 10px;
   text-align: center;
   background-color: rgb(245, 212, 185);
-  animation: fadein 2s ease-in-out;
 }
 
 /* navigation bar */
@@ -57,26 +56,11 @@ nav{
     border: 2px solid #ddd;
     border-radius: 55%;
     padding: 2px;
-    transition: all 0.5s ease-in-out;
 }
 
 .profile:hover {
     box-shadow: 0 0 2px 1px rgba(24, 5, 237, 0.5);
     transform: scale(1.1);
-  }
-
-  .text {
-    animation: typing 2s infinite;
-  }
-  
-  @keyframes typing {
-    from {
-      opacity: 0;
-    }
-  
-    to {
-      opacity: 1;
-    }
   }
 
 .about{
@@ -85,7 +69,6 @@ nav{
   padding: 10px;
   text-align: center;
   background-color: burlywood;
-  animation: slideup 2s ease-in-out;
 }
 
 .aboutInfo{
@@ -104,10 +87,12 @@ nav{
 fieldset{
  border-color: #080808;
 }
+
 .text{
     flex-direction: column;
-    /* justify-content: space-evenly; */
-}
+    color: #000011;
+  }
+
 
 /* resume part */
 .resume{
@@ -117,11 +102,6 @@ fieldset{
 .details{
     text-align: right;
     width:25%;
-}
-
-.text{
-
-    color: black;
 }
 
 .btn{
@@ -147,7 +127,7 @@ body{
 }
 
 /* The link */
-.contact{
+#contact{
     margin: 0;
     text-align: center;
     background-color: rgb(255, 229, 208);
@@ -168,7 +148,7 @@ fieldset > a:active{
 
 .foot{
     color: #dddddd;
-    background-color: #f0f0f0;
+    background-color: #010101;
     margin: 0;
     padding: 0;
 }
