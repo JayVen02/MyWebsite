@@ -9,13 +9,11 @@
 /* navigation bar */
 
 header {
-    margin: 0;
     width: 100%;
     height: 50px;
     background-color: #050301;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     position: fixed;
     top: 0;
   }
@@ -23,12 +21,12 @@ header {
 nav{
   overflow: hidden;
 }
+
   nav > ul {
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: wrap;
   align-items: center;
-  padding-inline-start: 0;
+  padding-inline-start:0;
   margin-block: 0;
   height: 100%;
   }
@@ -41,9 +39,10 @@ nav{
   }
   
   nav > ul > li:hover {
-    background-color: #f1b566;
+    background-color: #f4ede4;
     color: #000011;
     cursor: pointer;
+    border-radius: 60%;
   }
   
   li > a {
