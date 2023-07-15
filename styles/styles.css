@@ -23,7 +23,7 @@
 
 .light-mode {
   --color-primary: #FFFFFF;
-  --color-secondary: #0e1ba7;
+  --color-secondary: #7a5ebb;
   --color-white: #454e56;
   /* --color-black: #c0bfbf000; */
   --color-grey0: #f8f8f8;
@@ -417,6 +417,7 @@ section {
   object-fit: fill;
   border-radius: 15px;
 }
+
 .portfolios .portfolio-item .hover-items {
   width: 100%;
   height: 100%;
